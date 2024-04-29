@@ -6,7 +6,7 @@ This project aims to build a machine-learning model that accurately classifies b
 
 ### Dataset Description
 
-    Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
-    Features: 30 numerical features describing cell nucleus properties
-    Target Variable: Binary classification (Benign or Malignant)
+Source: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)
+Features: 30 numerical features describing cell nucleus properties
+Target Variable: Binary classification (Benign or Malignant)
 
