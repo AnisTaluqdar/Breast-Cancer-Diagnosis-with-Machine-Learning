@@ -1,10 +1,4 @@
-# %%
-# Data Exploration
 
-#     Load the dataset and explore its characteristics.
-#     Handle missing values (if any).
-#     Normalize features (e.g., Min-Max scaling or Z-score normalization).
-#     Split the data into training and testing sets.
 
 # %%
 # import necessary libraries
@@ -45,3 +39,8 @@ df = pd.get_dummies(df, columns=['diagnosis'], drop_first=True)
 # %%
 df
 # %%
+
+# Normalize features (e.g., Min-Max scaling or Z-score normalization).
+
+# %%
+# Split the data into training and testing sets.
