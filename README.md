@@ -53,15 +53,6 @@ The analysis revealed Logistic Regression as the leading performer, achieving ex
 
 Other models, such as AdaBoost and SGD Classifier, also achieved high accuracy (around 97%).
 
-
-## Hidden Information Exploration
-
-I utilized Principal Component Analysis (PCA) to identify underlying patterns in the data. This dimensionality reduction technique revealed two principal components (PCs) explaining a significant portion of the data's variance. Further analysis of these PCs with respect to the original features could potentially reveal:
-
-**Correlations:** Examining how features load onto the PCs can identify groups of features that tend to vary together, suggesting potential redundancies or underlying biological processes at play.
-
-**Cluster analysis:** Projecting the data onto the PCs and performing clustering techniques might reveal distinct subgroups within the benign and malignant categories, suggesting hidden tumor subtypes.
-
 ## Discussion
 Logistic Regression's remarkable performance, coupled with its interpretability, makes it a highly compelling choice for this specific task. Here's a breakdown of some key considerations:
 
