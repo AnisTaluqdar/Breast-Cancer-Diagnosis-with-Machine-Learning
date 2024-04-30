@@ -71,7 +71,7 @@ AdaBoost & SGD Classifier: While achieving good accuracy, they are less interpre
 ## Recommendations
 Given Logistic Regression's superior performance, it is the recommended model for this task. However, depending on the specific needs of the project, further analysis might be warranted:
 
-Feature importance analysis: Utilize Logistic Regression to understand which tumor characteristics are most significant for classification.
+**Feature importance analysis:** Utilize Logistic Regression to understand which tumor characteristics are most significant for classification.
 
 **PCA insights:** Explore potential feature redundancies and hidden tumor subtypes using the insights from PCA. This can guide further biological investigation and potentially lead to the discovery of new diagnostic markers.
 
