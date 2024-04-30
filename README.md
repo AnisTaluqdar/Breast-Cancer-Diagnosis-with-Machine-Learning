@@ -56,7 +56,7 @@ Other models, such as AdaBoost and SGD Classifier, also achieved high accuracy (
 
 ## Hidden Information Exploration
 
-While the provided code snippet lacked explicit techniques for uncovering hidden information, I utilized Principal Component Analysis (PCA) to identify underlying patterns in the data. This dimensionality reduction technique revealed two principal components (PCs) explaining a significant portion of the data's variance. Further analysis of these PCs with respect to the original features could potentially reveal:
+I utilized Principal Component Analysis (PCA) to identify underlying patterns in the data. This dimensionality reduction technique revealed two principal components (PCs) explaining a significant portion of the data's variance. Further analysis of these PCs with respect to the original features could potentially reveal:
 
 **Correlations:** Examining how features load onto the PCs can identify groups of features that tend to vary together, suggesting potential redundancies or underlying biological processes at play.
 
