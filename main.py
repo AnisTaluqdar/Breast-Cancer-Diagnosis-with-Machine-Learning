@@ -14,6 +14,9 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import mean_squared_error, r2_score, confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 import seaborn as sns
 
+# remove warnings
+import warnings
+warnings.filterwarnings('ignore')
 
 # %%
 # Function to load and preprocess data
@@ -96,7 +99,7 @@ def evaluate_model(model, X_test, y_test):
 
 
 # %%
-data_path = '/home/anis/Documents/Projects/myproject/Breast Cancer Wisconsin.csv'
+data_path = '/home/anis/Documents/Projects/myproject/Breast-Cancer-Diagnosis-with-Machine-Learning/Breast Cancer Wisconsin.csv'
 X_train, X_test, y_train, y_test = load_and_preprocess_data(data_path)
 
 
